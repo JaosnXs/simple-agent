@@ -1,0 +1,14 @@
+[project]
+name = "agent"
+version = "0.1.0"
+description = "一个最小可运行的 ReAct Agent（读文件 / 写文件 / 执行终端命令）"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.2.1",
+    "openai>=1.91.0",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.uv]
+# 直接运行的应用，非可发布的库
+package = false
