@@ -15,17 +15,17 @@
 
 ## 运行方法
 
-首先请确保你已经安装了 uv，如果没有的话，请按以下页面的要求安装：
+首先请确保已经安装了 uv，如果没有安装uv，请按以下页面的要求安装：
 
 https://docs.astral.sh/uv/guides/install-python/
 
-然后在当前目录下，新建一个叫做 .env 的文件，输入以下内容：
+然后在当前目录下，新建 .env 的文件，输入以下内容：
 
 ```
 DEEPSEEK_API_KEY=xxx
 ```
 
-xxx 就是你在 DeepSeek 官方平台申请到的 API Key。项目默认直连 DeepSeek 官方 API（base_url 为 https://api.deepseek.com），如需更换模型或服务商，直接修改 agent.py 中的 base_url 和 model 即可。
+xxx 是 DeepSeek 官方平台申请到的 API Key。项目默认直连 DeepSeek 官方 API（base_url 为 https://api.deepseek.com），如需更换模型或服务商，直接修改 agent.py 中的 base_url 和 model 即可。
 
 确保 uv 已经安装成功后，进入到当前文件所在目录，然后执行以下命令即可启动：
 
